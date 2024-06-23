@@ -1,0 +1,17 @@
+{
+    "name": "smalltazk",
+    "version": "1.0.0",
+    "description": "Smalltazk - A real-time house chores helper application",
+    "main": "index.js",
+    "scripts": {
+      "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\"",
+      "install-client": "npm install --prefix client",
+      "install-server": "npm install --prefix server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "concurrently": "^6.2.0"
+    }
+  }
+  
